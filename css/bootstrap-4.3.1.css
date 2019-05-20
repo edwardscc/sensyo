@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #3F5F98;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -60,7 +60,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background: #4791B8;
+  background: linear-gradient(145deg, rgba(63,95,152,1) 0%, rgba(71,145,184,1) 35%, rgba(71,145,184,1) 66%, rgba(63,95,152,1) 100%) no-repeat fixed center;
 }
 
 [tabindex="-1"]:focus {
@@ -2692,14 +2693,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #007bff;
-  border-color: #007bff;
+  color: #4791B8;
+  border-color: #4791B8;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #4791B8;
+  border-color: #4791B8;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
