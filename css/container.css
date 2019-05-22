@@ -1,13 +1,36 @@
-/* Scss Document */
-/* line 3, ../scss/container.scss */
-.navbar-logo .img-fluid {
-  max-height: 73px;
-  margin-right: 54px; }
+/*
+Error: Invalid CSS after "...63,95,152,0.5);": expected "}", was ""
+        on line 11 of /Users/calebedwards/Sites/Sensyo/scss/container.scss
 
-/* line 7, ../scss/container.scss */
-.navbar {
-  box-shadow: 0px 3px 6px 0px rgba(63, 95, 152, 0.5);
-  -webkit-box-shadow: 0px 3px 6px 0px rgba(63, 95, 152, 0.5);
-  -moz-box-shadow: 0px 3px 6px 0px rgba(63, 95, 152, 0.5); }
+6: }
+7: .navbar{
+8: 	box-shadow: 0px 3px 6px 0px rgba(63,95,152,0.5);
+9:     -webkit-box-shadow: 0px 3px 6px 0px rgba(63,95,152,0.5);
+10:     -moz-box-shadow: 0px 3px 6px 0px rgba(63,95,152,0.5);
 
-/*# sourceMappingURL=container.css.map */
+Backtrace:
+/Users/calebedwards/Sites/Sensyo/scss/container.scss:11
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1203:in `tok!'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:679:in `block'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:670:in `ruleset'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/bin/sass:37:in `load'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/bin/sass:37:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...63,95,152,0.5);\": expected \"}\", was \"\"\A         on line 11 of /Users/calebedwards/Sites/Sensyo/scss/container.scss\A \A 6: }\A 7: .navbar{\A 8: 	box-shadow: 0px 3px 6px 0px rgba(63,95,152,0.5);\A 9:     -webkit-box-shadow: 0px 3px 6px 0px rgba(63,95,152,0.5);\A 10:     -moz-box-shadow: 0px 3px 6px 0px rgba(63,95,152,0.5);"; }
