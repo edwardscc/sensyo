@@ -57,33 +57,49 @@
 
 /* line 57, ../scss/container.scss */
 .right-col {
-  padding-left: 30px; }
+  padding: 0 30px 0; }
   /* line 59, ../scss/container.scss */
   .right-col H1 {
     color: #3F5F98;
     font-weight: 600;
     margin: 1.5em 0 1.2em;
     font-size: 2.1em; }
-  /* line 65, ../scss/container.scss */
-  .right-col form {
-    width: 280px; }
   /* line 68, ../scss/container.scss */
   .right-col .form-control {
     border-radius: 100px;
     border-left: none;
-    padding-left: 5px; }
-  /* line 73, ../scss/container.scss */
+    padding-left: 5px;
+    height: 50px;
+    background-color: #F9FAFC; }
+  /* line 75, ../scss/container.scss */
   .right-col .input-group-text {
     padding-left: 20px;
     border-radius: 100px;
     background-color: #fff;
     border-right: none; }
 
+/* line 82, ../scss/container.scss */
+#basic-addon1, #basic-addon2 {
+  background-color: #F9FAFC; }
+
+/* line 85, ../scss/container.scss */
+.btn.btn-primary.signin {
+  border-radius: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 20px;
+  background-color: #4791B8;
+  margin-bottom: 20px; }
+
+/* line 93, ../scss/container.scss */
+.small .forgotpassword {
+  color: #3F5F98; }
+
 @media (min-width: 768px) {
-  /* line 83, ../scss/container.scss */
+  /* line 100, ../scss/container.scss */
   .left-col {
     height: 448px; }
-    /* line 85, ../scss/container.scss */
+    /* line 102, ../scss/container.scss */
     .left-col H3 {
       margin: 2em 0 .6em;
       font-size: 2.5em;
